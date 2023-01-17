@@ -140,3 +140,84 @@ nav li:hover{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.texto{
+    display: flex;
+    justify-content: center;
+    color: violet;
+    font-size: 45px;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(218, 173, 213);
+    width: 300px;
+    height: 400px;
+}
+
+.card p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact{
+    display: flex;
+    margin: 25px;
+    padding: 15px;
+}
+
+.info-contacto{
+    margin: 10px;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.info-contacto img{
+    width: 50%;
+}
+
+.medios-comunicacion{
+    width: 50%;
+    margin: 10px;
+    font-size: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medios-comunicacion img{
+    width: 25px;
+    height: 25px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.redes-sociales img{
+    width: 15px;
+    height: 15px;
+}
+
+.redes-sociales{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
